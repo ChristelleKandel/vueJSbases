@@ -14,7 +14,7 @@
     <h1>Titre de mon application Vue.js</h1>
 
     <!-- Composant simple ave cun message personnalisé-->
-    <HelloWorld msg="Bonjour Tout le monde" />
+    <HelloWorld msg="Bonjour Tout le monde" msgbis="test2" />
 
     <!--Composant avec des variables objets dynamiques - modifiables avec des inuputs - -->
     <Bienvenue :bienvenue="msg2" :nom="nom" :age="age" :subTitle="subTitle"  />
